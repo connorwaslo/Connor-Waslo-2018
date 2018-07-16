@@ -4,13 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>Connor Waslo</title>
+  <meta name="description" content="Hi, I'm Connor. Entrepreneur and computer science student at Vanderbilt.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <!-- End Bootstrap dependencies -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -22,7 +30,43 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="container-fluid full-height async-img"
+       id="intro-container"
+        data-src="img/Nashville.jpg">
+    <h1 id="intro-text">Hi, I'm Connor Waslo.</h1>
+  </div>
+  <div class="container-fluid full-width full-height py-4 bg-light">
+    <h1 class="text-center">I make cool stuff.</h1>
+    <h4 class="text-center"><i>It's not about ideas. It's about making ideas happen.</i> - Scott Belsky</h4>
+
+    <br>
+    <h2 class="text-center">I create tech that helps startups grow.</h2>
+    <h2 class="text-center">Right now I'm working on</h2>
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <h1>GoCode</h1>
+      </div>
+      <div class="col-lg-6 text-center">
+        <h1>Ignytion</h1>
+      </div>
+    </div>
+
+
+    <h2>Here are a few that I've worked with:</h2>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <h1>Great Pros</h1>
+      </div>
+      <div class="col-md-4 text-center">
+        <h1>The Genius Factory</h1>
+      </div>
+      <div class="col-md-4 text-center">
+        <h1>Audacia</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
   <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>

@@ -12,6 +12,11 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+  overflow-x: hidden;
 }
 
 /*
@@ -90,9 +95,47 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #161616;
+}
+
+.full-width {
+  width: 100vw;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+#intro-container {
+  width: 105vw;
+  background-image: url("../img/Nashville-min.jpg");
+  background-size: cover;
+  -webkit-transition: background 0.6s ease-in-out;
+}
+
+#intro-text {
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+}
 
 
 
