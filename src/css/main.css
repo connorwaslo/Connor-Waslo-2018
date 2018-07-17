@@ -96,25 +96,25 @@ textarea {
    ========================================================================== */
 
 /* Custom scrollbar */
-/* width */
+/*!* width *!
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
+!* Track *!
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* Handle */
+!* Handle *!
 ::-webkit-scrollbar-thumb {
   background: #333;
 }
 
-/* Handle on hover */
+!* Handle on hover *!
 ::-webkit-scrollbar-thumb:hover {
   background: #161616;
-}
+}*/
 
 .full-width {
   width: 100vw;
@@ -124,11 +124,20 @@ textarea {
   height: 100vh;
 }
 
+#main-container {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+}
+
 #intro-container {
+  /*position: relative;*/
   width: 105vw;
   background-image: url("../img/Nashville-min.jpg");
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
-  -webkit-transition: background 0.6s ease-in-out;
+  -webkit-transition: background 0.6s ease-out;
 }
 
 #intro-text {
@@ -137,16 +146,79 @@ textarea {
   left: 10vw;
 }
 
+.project-card {
+  width: 100%;
+  height: 100%;
+  background-color: #c4dbe6;
+  padding: 5em 3em;
+}
 
+/* Flip Animation */
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
 
+.flip-container, .front, .back {
+  text-align: center;
+}
 
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
 
+  position: relative;
+}
 
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
 
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+}
 
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
 
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 
+/* Animations */
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
 
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
 
 
 /* ==========================================================================
