@@ -96,25 +96,25 @@ textarea {
    ========================================================================== */
 
 /* Custom scrollbar */
-/*!* width *!
+/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-!* Track *!
+/* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #707070;
 }
 
-!* Handle *!
+/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #333;
 }
 
-!* Handle on hover *!
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #161616;
-}*/
+}
 
 .full-width {
   width: 100vw;
@@ -122,6 +122,10 @@ textarea {
 
 .full-height {
   height: 100vh;
+}
+
+.fit-vertically {
+  height: 100%;
 }
 
 #main-container {
@@ -151,6 +155,23 @@ textarea {
   height: 100%;
   background-color: #c4dbe6;
   padding: 5em 3em;
+}
+
+.img-portrait {
+  width: 75%;
+  height: auto;
+}
+
+.exp-row {
+  height: 40vh;
+}
+
+.rounded-corners {
+  border-radius: 10%;
+}
+
+.bg-eee {
+  background-color: #eee;
 }
 
 /* Flip Animation */
