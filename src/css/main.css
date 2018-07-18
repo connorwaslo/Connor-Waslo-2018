@@ -150,6 +150,17 @@ textarea {
   left: 10vw;
 }
 
+#connor-pic-container {
+  position: relative;
+}
+
+#connor-pic {
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  bottom: 0;
+}
+
 .project-card {
   width: 100%;
   height: 100%;
@@ -160,6 +171,8 @@ textarea {
 .img-portrait {
   width: 75%;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .exp-row {
