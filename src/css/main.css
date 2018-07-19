@@ -175,6 +175,17 @@ textarea {
   padding: 0;
 }
 
+.img-interest {
+  width: 75%;
+  height: auto;
+}
+
+.img-contact {
+  width: 50%;
+  height: auto;
+  border-radius: 10%;
+}
+
 .exp-title {
   color: #3fa7f6;
 }
@@ -187,8 +198,8 @@ textarea {
   border-radius: 10%;
 }
 
-.bg-eee {
-  background-color: #eee;
+.interest-row {
+  height: 50vh;
 }
 
 /* Flip Animation */
