@@ -175,8 +175,12 @@ textarea {
   padding: 0;
 }
 
-.exp-row {
-  height: 40vh;
+.exp-title {
+  color: #3fa7f6;
+}
+
+.exp-pos {
+  color: #0d1534;
 }
 
 .rounded-corners {
@@ -251,9 +255,8 @@ textarea {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
-
 
 /* ==========================================================================
    Helper classes
