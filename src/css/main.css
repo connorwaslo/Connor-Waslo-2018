@@ -175,14 +175,17 @@ textarea {
   padding: 0;
 }
 
+.img-exp {
+  width: 75%;
+  height: auto;
+}
+
 .img-interest {
   width: 75%;
   height: auto;
 }
 
-.img-contact {
-  width: 50%;
-  height: auto;
+.img-border-10 {
   border-radius: 10%;
 }
 
