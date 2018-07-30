@@ -97,24 +97,24 @@ textarea {
 
 /* Custom scrollbar */
 /* width */
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
+!* Track *!
 ::-webkit-scrollbar-track {
   background: #669BFF;
 }
 
-/* Handle */
+!* Handle *!
 ::-webkit-scrollbar-thumb {
   background: #196DFF;
 }
 
-/* Handle on hover */
+!* Handle on hover *!
 ::-webkit-scrollbar-thumb:hover {
   background: #1457CC;
-}
+}*/
 
 .full-width {
   width: 100vw;
