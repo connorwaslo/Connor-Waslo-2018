@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8d155fe8-d316-4f1e-8915-7e96e3646827" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/galvanize_headshot_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile-wide.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile-wide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+            <state relative-caret-position="200">
+              <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -119,52 +121,6 @@
               <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Connor Waslo 2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Connor Waslo 2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Connor Waslo 2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="exps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Connor Waslo 2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="interests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Connor Waslo 2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="logos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Connor Waslo 2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Connor Waslo 2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Connor Waslo 2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,12 +173,12 @@
       <updated>1531772750532</updated>
       <workItem from="1531772756370" duration="34692000" />
       <workItem from="1532108056692" duration="11331000" />
-      <workItem from="1532992152797" duration="721000" />
+      <workItem from="1532992152797" duration="1627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46744000" />
+    <option name="totallyTimeSpent" value="47650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="733" extended-state="6" />
@@ -336,10 +292,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        <state relative-caret-position="200">
+          <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
         </state>
       </provider>
     </entry>
